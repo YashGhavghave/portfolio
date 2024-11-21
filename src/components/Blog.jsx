@@ -6,7 +6,7 @@ function Blog(props) {
       <h2>
       
 Hii!
-<br/> I'm Yash Ghavghave, a third-year engineering student pursuing my B.Tech in Artificial Intelligence and Machine Learning (AIML) from the Faculty of Engineering and Technology, Sawangi(Meghe), Wardha.
+<br/> I'm Yash Ghavghave,  Engineering student pursuing B.Tech in Artificial Intelligence and Machine Learning (AIML) from the FEAT, Sawangi(Meghe), Wardha.
 <br/>
 <br/>
 <hr/>
