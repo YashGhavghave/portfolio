@@ -6,6 +6,7 @@ import Icon from "./components/icon"
 import Blog from "./components/blog"
 import Social from "./components/Social"
 
+
 function App(){
   return(
     <div className="bg-black bg-opacity-92 text-white h-[100%] overflow-scroll">
