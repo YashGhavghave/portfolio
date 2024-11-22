@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog(props) {
   return (
-    <div className='w-[50vw] relative left-[40vw] top-[40vh] bg-black'>
+    <div className='w-[50vw] relative left-[40vw] max-sm:top-[80vh]   bg-black top-[40vh] max-sm:text-sm max-sm:left-[5vw] max-sm:w-[90vw]'>
       <h2>
       
 Hii!

@@ -2,8 +2,8 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Profile from "./components/Profile"
 import TypingEffect from "./components/TypingEffect"
-import Icon from "./components/icon"
-import Blog from "./components/blog"
+import Icon from "./components/Icon"
+import Blog from "./components/Blog"
 import Social from "./components/Social"
 
 

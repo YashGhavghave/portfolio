@@ -40,7 +40,7 @@ const TypingEffect = () => {
   }, [currentText, isErasing, currentLineIndex, lines]);
 
   return (
-    <div className="items-center h-[80%] bg-transparent absolute left-[40vw] top-[32vh] " >
+    <div className="items-center h-[80%] bg-transparent absolute left-[40vw] top-[32vh] max-sm:top-[73vh] max-sm:text-sm max-sm:left-[20vw]" >
       <div className="text-center text-2xl font-mono overflow-hidden relative">
         <span className="inline-block">{currentText}</span>
         <span className="absolute right-0 top-0 border-r-4 border-black animate-blink"></span>
