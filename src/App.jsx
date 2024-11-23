@@ -3,18 +3,20 @@ import Navbar from "./components/Navbar"
 import Profile from "./components/Profile"
 import TypingEffect from "./components/TypingEffect"
 import Icon from "./components/Icon"
-import Blog from "./components/Blog"
 import Social from "./components/Social"
+import Footer from "./components/Design"
+import Blog from "./components/Blog"
 
 
 function App(){
   return(
-    <div className="bg-black bg-opacity-92 text-white h-[100%] overflow-scroll">
+    <div className="bg-black h-[20vh] w-full sm:fixed">
       <Social/>
       <Navbar/>
       <Profile/>
       <Icon/>
       <TypingEffect/>
+      <Footer/>
       <Blog/>
     </div>
   )

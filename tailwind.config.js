@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'sm-320': '320px',  // Start from 320px
+        'sm-320': '321px',  // Start from 320px
         'sm-425': '460px', // End at 460px
       },
     },

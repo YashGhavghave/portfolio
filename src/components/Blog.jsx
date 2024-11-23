@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Blog(props) {
+function Blog() {
   return (
-    <div className='w-[50vw] relative left-[40vw] max-sm:top-[80vh]   bg-black top-[40vh] max-sm:text-sm max-sm:left-[5vw] max-sm:w-[90vw]'>
+    <div className='w-[90vw] relative left-[40vw] max-sm:top-[80vh]   bg-white top-[40vh] max-sm:text-sm max-sm:left-[5vw] max-sm:w-[90vw] sm:hidden '>
+      <div>
+        
       <h2>
       
 Hii!
@@ -31,6 +33,7 @@ Alongside web development, I’m diving deep into the world of Artificial Intell
 <br/>
 <hr/>
 <h1>
+<br/>
     My Approach to Work
     </h1>
 <br/>
@@ -39,6 +42,7 @@ I believe in keeping things simple—a clean, straightforward approach not only 
 <br/>
 <br/>
 <hr/>
+<br/>
 <h1>
     Looking Ahead
     </h1>
@@ -46,15 +50,17 @@ I believe in keeping things simple—a clean, straightforward approach not only 
 As I continue my journey through engineering, I am eager to expand my knowledge in both web development and AIML. My goal is to combine my love for design with cutting-edge AI and machine learning technologies to create impactful solutions for the future.
 <br/>
 <br/>
-
-<h1>
-    Let’s Connect!
+<hr/>
+<br/>
+<h1>    Let’s Connect!
     </h1>
 <br/>
 Feel free to reach out to me for collaboration, feedback, or just a conversation about design, web development, or anything related to technology. You can contact me through my website or find me on social media.
       </h2>
-<br/>
-    </div>
+<hr/>
+      </div>
+</div>
+
   )
 }
 export default Blog
